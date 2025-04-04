@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga AI Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="developer-info">
+        
+        <h2>Developed by: Gopika M R 12319189, Anjana V 12322576, Bandaru tejo manasa 12324335</h2>
+    </div>
+
+    
+    <div class="container">
+        <header>
+            
+            <h1><div class="meditation-logo"><img src="https://st3.depositphotos.com/1603730/13076/v/450/depositphotos_130769562-stock-illustration-meditation-icon-human-meditating-in.jpg" alt="Meditation pose silhouette"></div> Yoga AI Assistant</h1>
+            <p>Your personal AI yoga instructor</p>
+
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Messages will be displayed here -->
+                    <div class="message bot">
+                        <div class="avatar">
+                            <img src="https://st3.depositphotos.com/1603730/13076/v/450/depositphotos_130769562-stock-illustration-meditation-icon-human-meditating-in.jpg" alt="Meditation pose silhouette">
+                        </div>
+                        <div class="content">
+                            <p>Namaste! I'm your AI Yoga Assistant. How can I help you today? Feel free to ask me about yoga history, poses, benefits, or any other yoga-related topic.</p>
+                            <p class="suggestions">Try asking about:</p>
+                            <div class="suggestion-chips">
+                                
+                                <button class="suggestion-chip" onclick="sendSuggestion('Yoga for back pain')">Yoga for back pain</button>
+                                <button class="suggestion-chip" onclick="sendSuggestion('Morning yoga routine')">Morning yoga routine</button>
+                                <button class="suggestion-chip" onclick="sendSuggestion('Meditation techniques')">Meditation techniques</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Ask me about yoga..." aria-label="Enter your message">
+                    <button id="send-btn" aria-label="Send message">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Yoga AI Assistant &copy; 2025 | Developed by Gopika M R, Anjana V, Bandaru tejo manasa | Disclaimer: This AI provides general yoga information and is not a substitute for professional instruction.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
